@@ -52,7 +52,6 @@ function SmoothLoop:run()
 
     self.is_running = true
     self.timer = setTimer(self.resume, self.ms, 0)
-    coroutine.resume(self.thread)
 end
 
 function SmoothLoop:destroy()

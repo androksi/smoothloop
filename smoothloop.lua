@@ -10,7 +10,8 @@ function SmoothLoop.new(tbl, ms, callback)
     local delta = ms / #tbl
     
     if delta <= 0 then
-        return false
+        print("You are trying to loop a heavy table. Be careful!")
+        delta = 1
     end
     
     local data = {

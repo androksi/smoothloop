@@ -4,6 +4,9 @@ A library which helps you to loop your tables in a defined time.
 ## About
 This library will help you to loop tables in a defined time. Let's say you want to loop a table and it must take 30 seconds to finish. Well, this library does that. For instance, it will only process tables which have numbers as index. (**ipairs** table)
 
+## Installing
+It couldn't be simpler. Create a file on your resource's folder and paste the content of the `smoothloop.lua`, located in this repository. The type can be client, server or shared. It's totally up to you. **Ensure you are loading this file first**!
+
 ## Parameters
 ```lua
 SmoothLoop.new(table, msToFinish, callback):run()

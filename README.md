@@ -45,4 +45,4 @@ This example will change the vehicles color. The loop will take 5 seconds (5000 
 `5000 / 50`, which results in `100`. The result will be, internally, the interval time of the `setTimer` function, that is, **100ms** for each vehicle.
 
 ## Author
-[androksi](https://forum.mtasa.com/profile/50045-androksi/)
+[androksi](https://forum.mtasa.com/profile/50045-androksi/) ❤️
